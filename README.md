@@ -12,7 +12,7 @@ The analysis began with data preprocessing and the engineering of a custom "Serv
 * **Contract Influence:** Customers on month-to-month contracts were the single largest source of churn, whereas two-year contract holders remained highly stable.
 * **Service Issues:** Users with Fiber Optic internet churned at significantly higher rates than DSL users, pointing to potential technical or reliability issues with that specific infrastructure.
 
-### 📊 Key Visuals
+### Key Visuals
 **1. Top Drivers of Churn**
 The model identifies specific features (like Pricing and Fiber Optic service) as the primary indicators of risk.
 ![Feature Importance](visualizations/feature_importance.png)
