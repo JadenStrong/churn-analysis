@@ -12,6 +12,15 @@ The analysis began with data preprocessing and the engineering of a custom "Serv
 * **Contract Influence:** Customers on month-to-month contracts were the single largest source of churn, whereas two-year contract holders remained highly stable.
 * **Service Issues:** Users with Fiber Optic internet churned at significantly higher rates than DSL users, pointing to potential technical or reliability issues with that specific infrastructure.
 
+### 📊 Key Visuals
+**1. Top Drivers of Churn**
+The model identifies specific features (like Pricing and Fiber Optic service) as the primary indicators of risk.
+![Feature Importance](visualizations/feature_importance.png)
+
+**2. Contract Analysis**
+Month-to-month contracts are the single biggest risk factor, whereas 2-year contracts effectively eliminate churn.
+![Contract Churn](visualizations/contract_churn.png)
+
 ### Project Structure
 * **churn_analysis.ipynb:** The primary notebook containing data cleaning, exploratory analysis, model training, and revenue calculations.
 * **WA_Fn-UseC_-Telco-Customer-Churn.csv:** The raw dataset used for analysis.
